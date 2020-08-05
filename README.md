@@ -1,6 +1,6 @@
-##solr4 demo  说明
+##solr demo  说明
 
-- 项目使用maven搭建。使用最新到solr 4.10.0
+- 项目使用maven搭建。使用最新到s solr-8.6.0 的版本
 - 项目本地可以直接使用maven jetty跑起
 - solr地址 http://lucene.apache.org/solr/
 

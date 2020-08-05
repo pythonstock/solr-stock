@@ -70,14 +70,15 @@
 			precisionStep="6" positionIncrementGap="0" />
 
 		<fieldtype name="binary" class="solr.BinaryField" />
-		<fieldType name="pint" class="solr.IntField" />
-		<fieldType name="plong" class="solr.LongField" />
-		<fieldType name="pfloat" class="solr.FloatField" />
-		<fieldType name="pdouble" class="solr.DoubleField" />
-		<fieldType name="pdate" class="solr.DateField"
-			sortMissingLast="true" />
-		<fieldType name="random" class="solr.RandomSortField"
-			indexed="true" />
+
+		<fieldType name="pint" class="solr.IntPointField" docValues="true"/>
+		<fieldType name="pfloat" class="solr.FloatPointField" docValues="true"/>
+		<fieldType name="plong" class="solr.LongPointField" docValues="true"/>
+		<fieldType name="pdouble" class="solr.DoublePointField" docValues="true"/>
+
+		<fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
+		<fieldType name="random" class="solr.RandomSortField" indexed="true"/>
+
 
 
 		<fieldType name="text_ws" class="solr.TextField"

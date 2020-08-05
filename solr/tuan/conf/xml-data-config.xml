@@ -21,7 +21,7 @@
 	<dataSource type="FileDataSource" encoding="utf-8" />
 	<document>
 		<entity name="tuan" pk="loc"
-			url="d:/var/data/meituan_hao123.xml"
+			url="./solr/tuan/meituan_hao123.xml"
 			processor="XPathEntityProcessor" forEach="/urlset/url"
 			transformer="script:ReplaceLocAddId,DateFormatTransformer">
 

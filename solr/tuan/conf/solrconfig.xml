@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <luceneMatchVersion>4.10.0</luceneMatchVersion>
 
-    <lib dir="../../../contrib/extraction/lib" regex=".*\.jar"/>
-    <lib dir="../../../dist/" regex="solr-cell-\d.*\.jar"/>
+    <luceneMatchVersion>8.6.0</luceneMatchVersion>
 
-    <lib dir="../../../contrib/clustering/lib/" regex=".*\.jar"/>
-    <lib dir="../../../dist/" regex="solr-clustering-\d.*\.jar"/>
+    <lib dir="${solr.install.dir:../../../..}/contrib/extraction/lib" regex=".*\.jar" />
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-cell-\d.*\.jar" />
 
-    <lib dir="../../../contrib/langid/lib/" regex=".*\.jar"/>
-    <lib dir="../../../dist/" regex="solr-langid-\d.*\.jar"/>
+    <lib dir="${solr.install.dir:../../../..}/contrib/clustering/lib/" regex=".*\.jar" />
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-clustering-\d.*\.jar" />
 
-    <lib dir="../../../contrib/velocity/lib" regex=".*\.jar"/>
-    <lib dir="../../../dist/" regex="solr-velocity-\d.*\.jar"/>
+    <lib dir="${solr.install.dir:../../../..}/contrib/langid/lib/" regex=".*\.jar" />
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-langid-\d.*\.jar" />
+
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-ltr-\d.*\.jar" />
+
+    <lib dir="${solr.install.dir:../../../..}/contrib/velocity/lib" regex=".*\.jar" />
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
+
 
     <dataDir>${solr.data.dir:}</dataDir>
 
@@ -41,7 +45,6 @@
 
         <infoStream>true</infoStream>
 
-        <checkIntegrityAtMerge>false</checkIntegrityAtMerge>
     </indexConfig>
 
 
@@ -261,32 +264,6 @@
                     class="solr.DocumentAnalysisRequestHandler"
                     startup="lazy"/>
 
-
-    <requestHandler name="/admin/"
-                    class="solr.admin.AdminHandlers"/>
-
-    <!-- ping/healthcheck -->
-    <requestHandler name="/admin/ping" class="solr.PingRequestHandler">
-        <lst name="invariants">
-            <str name="q">solrpingquery</str>
-        </lst>
-        <lst name="defaults">
-            <str name="echoParams">all</str>
-        </lst>
-    </requestHandler>
-
-    <!-- Echo the request contents back to the client -->
-    <requestHandler name="/debug/dump" class="solr.DumpRequestHandler">
-        <lst name="defaults">
-            <str name="echoParams">explicit</str>
-            <str name="echoHandler">true</str>
-        </lst>
-    </requestHandler>
-
-
-    <requestHandler name="/replication" class="solr.ReplicationHandler">
-
-    </requestHandler>
 
 
     <searchComponent name="spellcheck" class="solr.SpellCheckComponent">

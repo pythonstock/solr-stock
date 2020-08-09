@@ -9,9 +9,11 @@
                     //格式化时间.
                     var sdf = new java.text.SimpleDateFormat('yyyy-MM-dd HH:mm:ss');
                     //开始时间.
-                    row.put('startTime', com.demo.tuan.DateUtils.format(row.get('startTime')));
+                    var startTime = new java.util.Date(java.lang.Integer.parseInt(row.get('startTime') ) );
+                    row.put('startTime', sdf.format(startTime));
                     //结束时间.
-                    row.put('endTime', com.demo.tuan.DateUtils.format(row.get('endTime')));
+                    var endTime = new java.util.Date(java.lang.Integer.parseInt(row.get('endTime') ) );
+                    row.put('endTime', sdf.format(endTime));
                     //去掉折扣汉字.
                     row.put('rebate', row.get('rebate').replace('折',''));
                     return row;

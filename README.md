@@ -6,3 +6,6 @@
 
 - 博客地址：  http://blog.csdn.net/freewebsys/article/details/39078269
 
+
+http://localhost:8983/solr/tuan/browse
+

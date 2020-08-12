@@ -7,8 +7,7 @@ public class DateUtils {
 		java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat(
 				"yyyy-MM-dd HH:mm:ss");
 		// 开始时间.
-		java.util.Date date = new java.util.Date(
-				java.lang.Integer.parseInt(str));
+		java.util.Date date = new java.util.Date(java.lang.Integer.parseInt(str));
 		
 		return sdf.format(date);
 	}

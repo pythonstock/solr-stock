@@ -1,13 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>solr4_demo</groupId>
-	<artifactId>solr4_demo</artifactId>
+	<groupId>solr-stock</groupId>
+	<artifactId>solr-stock</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
 	<properties>
-		<solr.version>4.10.0</solr.version>
+		<solr.version>8.6.0</solr.version>
+		<zookeeper.version>3.5.7</zookeeper.version>
 	</properties>
 
 	<dependencies>
@@ -63,11 +65,11 @@
 			<artifactId>solr-velocity</artifactId>
 			<version>${solr.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.solr</groupId>
-			<artifactId>solr-uima</artifactId>
-			<version>${solr.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.solr</groupId>-->
+<!--			<artifactId>solr-uima</artifactId>-->
+<!--			<version>${solr-uima.version}</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-langid</artifactId>
@@ -77,6 +79,16 @@
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-clustering</artifactId>
 			<version>${solr.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>${zookeeper.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper-jute</artifactId>
+			<version>${zookeeper.version}</version>
 		</dependency>
 
 	</dependencies>
@@ -109,7 +121,7 @@
 					</scanTargetPatterns>
 					<connectors>
 						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-							<port>80</port>
+							<port>8080</port>
 						</connector>
 					</connectors>
 					<stopKey>exit</stopKey>

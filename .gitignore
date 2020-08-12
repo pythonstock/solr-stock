@@ -2,5 +2,4 @@
 .idea
 .attach_*
 
-solr/tuan/data/*
-data
+solr/tuan/data/

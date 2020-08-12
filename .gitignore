@@ -1,3 +1,6 @@
 *.iml
 .idea
 .attach_*
+
+solr/tuan/data/*
+data

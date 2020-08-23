@@ -22,7 +22,7 @@ function search(){
     
     	<div id="logo-2013" class="ld" style="width: 230px;">
     		<a href="browse" hidefocus="true"><b></b>
-    		<img src="#{url_root}/img/solr.png" width="109" height="60"></a>
+    		<img src="#{url_root}/img/solr.svg" width="109" height="60"></a>
     	</div>
     	
         <div id="search-2013">

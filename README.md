@@ -16,4 +16,8 @@ https://blog.csdn.net/qq_41674409/article/details/85143606
 
 ### 设计通过
 
+java 股票系统
 https://github.com/kingschan1204/istock
+
+手机app
+https://github.com/yangsanning/StockView

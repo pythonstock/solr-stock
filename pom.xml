@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<solr.version>8.6.0</solr.version>
+		<solr.version>8.6.1</solr.version>
 		<zookeeper.version>3.5.7</zookeeper.version>
 	</properties>
 

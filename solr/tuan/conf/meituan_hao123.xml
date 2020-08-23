@@ -14,7 +14,7 @@
                 <endTime>1377943200</endTime>
                 <value>100</value>
                 <price>30</price>
-                <rebate>3折</rebate>
+                <rebate>3</rebate>
                 <bought>13593</bought>
                 <spend_start_time>1373040000</spend_start_time>
                 <spend_close_time>1377964799</spend_close_time>
@@ -40,7 +40,7 @@
                 <endTime>1388505599</endTime>
                 <value>100</value>
                 <price>81</price>
-                <rebate>8.1折</rebate>
+                <rebate>8.1</rebate>
                 <bought>10190</bought>
                 <spend_start_time>1372608000</spend_start_time>
                 <spend_close_time>1388591999</spend_close_time>
@@ -66,7 +66,7 @@
                 <endTime>1377878399</endTime>
                 <value>200</value>
                 <price>178</price>
-                <rebate>8.9折</rebate>
+                <rebate>8.9</rebate>
                 <bought>2799</bought>
                 <spend_start_time>1372262400</spend_start_time>
                 <spend_close_time>1377964799</spend_close_time>
@@ -92,7 +92,7 @@
                 <endTime>1384444799</endTime>
                 <value>200</value>
                 <price>185</price>
-                <rebate>9.3折</rebate>
+                <rebate>9.3</rebate>
                 <bought>3879</bought>
                 <spend_start_time>1371830400</spend_start_time>
                 <spend_close_time>1384531199</spend_close_time>
@@ -118,7 +118,7 @@
                 <endTime>1376560800</endTime>
                 <value>80</value>
                 <price>30</price>
-                <rebate>3.8折</rebate>
+                <rebate>3.8</rebate>
                 <bought>13069</bought>
                 <spend_start_time>1372608000</spend_start_time>
                 <spend_close_time>1376582399</spend_close_time>
@@ -144,7 +144,7 @@
                 <endTime>1375199999</endTime>
                 <value>90</value>
                 <price>31</price>
-                <rebate>3.4折</rebate>
+                <rebate>3.4</rebate>
                 <bought>22519</bought>
                 <spend_start_time>1367856000</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -170,7 +170,7 @@
                 <endTime>1398700799</endTime>
                 <value>36</value>
                 <price>25</price>
-                <rebate>6.9折</rebate>
+                <rebate>6.9</rebate>
                 <bought>29892</bought>
                 <spend_start_time>1367164800</spend_start_time>
                 <spend_close_time>1398787199</spend_close_time>
@@ -196,7 +196,7 @@
                 <endTime>1403366399</endTime>
                 <value>88</value>
                 <price>78</price>
-                <rebate>8.9折</rebate>
+                <rebate>8.9</rebate>
                 <bought>9190</bought>
                 <spend_start_time>1371830400</spend_start_time>
                 <spend_close_time>1403452799</spend_close_time>
@@ -222,7 +222,7 @@
                 <endTime>1374595199</endTime>
                 <value>20</value>
                 <price>16</price>
-                <rebate>8折</rebate>
+                <rebate>8</rebate>
                 <bought>100416</bought>
                 <spend_start_time>1358956800</spend_start_time>
                 <spend_close_time>1374681599</spend_close_time>
@@ -248,7 +248,7 @@
                 <endTime>1382457599</endTime>
                 <value>198</value>
                 <price>168</price>
-                <rebate>8.5折</rebate>
+                <rebate>8.5</rebate>
                 <bought>8188</bought>
                 <spend_start_time>1366819200</spend_start_time>
                 <spend_close_time>1382543999</spend_close_time>
@@ -274,7 +274,7 @@
                 <endTime>1378828799</endTime>
                 <value>100</value>
                 <price>81</price>
-                <rebate>8.1折</rebate>
+                <rebate>8.1</rebate>
                 <bought>6235</bought>
                 <spend_start_time>1370880000</spend_start_time>
                 <spend_close_time>1378915199</spend_close_time>
@@ -300,7 +300,7 @@
                 <endTime>1376200800</endTime>
                 <value>138</value>
                 <price>58</price>
-                <rebate>4.2折</rebate>
+                <rebate>4.2</rebate>
                 <bought>6497</bought>
                 <spend_start_time>1373212800</spend_start_time>
                 <spend_close_time>1376236799</spend_close_time>
@@ -326,7 +326,7 @@
                 <endTime>1375199999</endTime>
                 <value>200</value>
                 <price>178</price>
-                <rebate>8.9折</rebate>
+                <rebate>8.9</rebate>
                 <bought>2043</bought>
                 <spend_start_time>1370448000</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -352,7 +352,7 @@
                 <endTime>1375250400</endTime>
                 <value>48</value>
                 <price>38</price>
-                <rebate>7.9折</rebate>
+                <rebate>7.9</rebate>
                 <bought>10024</bought>
                 <spend_start_time>1368806400</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -378,7 +378,7 @@
                 <endTime>1380470399</endTime>
                 <value>100</value>
                 <price>29.9</price>
-                <rebate>3折</rebate>
+                <rebate>3</rebate>
                 <bought>9683</bought>
                 <spend_start_time>1370016000</spend_start_time>
                 <spend_close_time>1380556799</spend_close_time>
@@ -404,7 +404,7 @@
                 <endTime>1375336800</endTime>
                 <value>274</value>
                 <price>138</price>
-                <rebate>5折</rebate>
+                <rebate>5</rebate>
                 <bought>1788</bought>
                 <spend_start_time>1370016000</spend_start_time>
                 <spend_close_time>1375372799</spend_close_time>
@@ -430,7 +430,7 @@
                 <endTime>1394445600</endTime>
                 <value>100</value>
                 <price>21</price>
-                <rebate>2.1折</rebate>
+                <rebate>2.1</rebate>
                 <bought>85386</bought>
                 <spend_start_time>1343232000</spend_start_time>
                 <spend_close_time>1394467199</spend_close_time>
@@ -456,7 +456,7 @@
                 <endTime>1388419199</endTime>
                 <value>80</value>
                 <price>33</price>
-                <rebate>4.1折</rebate>
+                <rebate>4.1</rebate>
                 <bought>21246</bought>
                 <spend_start_time>1363968000</spend_start_time>
                 <spend_close_time>1388505599</spend_close_time>
@@ -482,7 +482,7 @@
                 <endTime>1377770400</endTime>
                 <value>120</value>
                 <price>31</price>
-                <rebate>2.6折</rebate>
+                <rebate>2.6</rebate>
                 <bought>26585</bought>
                 <spend_start_time>1367251200</spend_start_time>
                 <spend_close_time>1377791999</spend_close_time>
@@ -508,7 +508,7 @@
                 <endTime>1375113599</endTime>
                 <value>55</value>
                 <price>26.6</price>
-                <rebate>4.8折</rebate>
+                <rebate>4.8</rebate>
                 <bought>3914</bought>
                 <spend_start_time>1372780800</spend_start_time>
                 <spend_close_time>1375199999</spend_close_time>
@@ -534,7 +534,7 @@
                 <endTime>1376495999</endTime>
                 <value>346</value>
                 <price>138</price>
-                <rebate>4折</rebate>
+                <rebate>4</rebate>
                 <bought>3102</bought>
                 <spend_start_time>1369929600</spend_start_time>
                 <spend_close_time>1376582399</spend_close_time>
@@ -560,7 +560,7 @@
                 <endTime>1375199999</endTime>
                 <value>70</value>
                 <price>22</price>
-                <rebate>3.1折</rebate>
+                <rebate>3.1</rebate>
                 <bought>2980</bought>
                 <spend_start_time>1372780800</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -586,7 +586,7 @@
                 <endTime>1388210400</endTime>
                 <value>636</value>
                 <price>199</price>
-                <rebate>3.1折</rebate>
+                <rebate>3.1</rebate>
                 <bought>578</bought>
                 <spend_start_time>1372348800</spend_start_time>
                 <spend_close_time>1388246399</spend_close_time>
@@ -612,7 +612,7 @@
                 <endTime>1380383999</endTime>
                 <value>211</value>
                 <price>139</price>
-                <rebate>6.6折</rebate>
+                <rebate>6.6</rebate>
                 <bought>2996</bought>
                 <spend_start_time>1372608000</spend_start_time>
                 <spend_close_time>1380470399</spend_close_time>
@@ -638,7 +638,7 @@
                 <endTime>1388419199</endTime>
                 <value>10</value>
                 <price>9.2</price>
-                <rebate>9.2折</rebate>
+                <rebate>9.2</rebate>
                 <bought>76995</bought>
                 <spend_start_time>1362931200</spend_start_time>
                 <spend_close_time>1388505599</spend_close_time>
@@ -664,7 +664,7 @@
                 <endTime>1375077600</endTime>
                 <value>100</value>
                 <price>85</price>
-                <rebate>8.5折</rebate>
+                <rebate>8.5</rebate>
                 <bought>4847</bought>
                 <spend_start_time>1367164800</spend_start_time>
                 <spend_close_time>1375113599</spend_close_time>
@@ -690,7 +690,7 @@
                 <endTime>1379001599</endTime>
                 <value>42</value>
                 <price>29.5</price>
-                <rebate>7折</rebate>
+                <rebate>7</rebate>
                 <bought>1716</bought>
                 <spend_start_time>1371052800</spend_start_time>
                 <spend_close_time>1379087999</spend_close_time>
@@ -716,7 +716,7 @@
                 <endTime>1391183998</endTime>
                 <value>80</value>
                 <price>43</price>
-                <rebate>5.4折</rebate>
+                <rebate>5.4</rebate>
                 <bought>16871</bought>
                 <spend_start_time>1358956800</spend_start_time>
                 <spend_close_time>1391183999</spend_close_time>
@@ -742,7 +742,7 @@
                 <endTime>1375199999</endTime>
                 <value>100</value>
                 <price>30</price>
-                <rebate>3折</rebate>
+                <rebate>3</rebate>
                 <bought>25288</bought>
                 <spend_start_time>1366041600</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -768,7 +768,7 @@
                 <endTime>1402070399</endTime>
                 <value>90</value>
                 <price>41</price>
-                <rebate>4.6折</rebate>
+                <rebate>4.6</rebate>
                 <bought>1181</bought>
                 <spend_start_time>1373644800</spend_start_time>
                 <spend_close_time>1402156799</spend_close_time>
@@ -794,7 +794,7 @@
                 <endTime>1375264800</endTime>
                 <value>100</value>
                 <price>28</price>
-                <rebate>2.8折</rebate>
+                <rebate>2.8</rebate>
                 <bought>15908</bought>
                 <spend_start_time>1366560000</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -820,7 +820,7 @@
                 <endTime>1387706400</endTime>
                 <value>90</value>
                 <price>21</price>
-                <rebate>2.3折</rebate>
+                <rebate>2.3</rebate>
                 <bought>4764</bought>
                 <spend_start_time>1372694400</spend_start_time>
                 <spend_close_time>1387727999</spend_close_time>
@@ -846,7 +846,7 @@
                 <endTime>1377943200</endTime>
                 <value>110</value>
                 <price>36</price>
-                <rebate>3.3折</rebate>
+                <rebate>3.3</rebate>
                 <bought>3150</bought>
                 <spend_start_time>1372867200</spend_start_time>
                 <spend_close_time>1377964799</spend_close_time>
@@ -872,7 +872,7 @@
                 <endTime>1380470399</endTime>
                 <value>100</value>
                 <price>26.5</price>
-                <rebate>2.7折</rebate>
+                <rebate>2.7</rebate>
                 <bought>2253</bought>
                 <spend_start_time>1373472000</spend_start_time>
                 <spend_close_time>1380556799</spend_close_time>
@@ -898,7 +898,7 @@
                 <endTime>1388419199</endTime>
                 <value>80</value>
                 <price>31</price>
-                <rebate>3.9折</rebate>
+                <rebate>3.9</rebate>
                 <bought>2543</bought>
                 <spend_start_time>1372780800</spend_start_time>
                 <spend_close_time>1388505599</spend_close_time>
@@ -924,7 +924,7 @@
                 <endTime>1377842400</endTime>
                 <value>484</value>
                 <price>168</price>
-                <rebate>3.5折</rebate>
+                <rebate>3.5</rebate>
                 <bought>11148</bought>
                 <spend_start_time>1347984000</spend_start_time>
                 <spend_close_time>1377878399</spend_close_time>
@@ -950,7 +950,7 @@
                 <endTime>1377878399</endTime>
                 <value>80</value>
                 <price>26</price>
-                <rebate>3.3折</rebate>
+                <rebate>3.3</rebate>
                 <bought>2173</bought>
                 <spend_start_time>1372867200</spend_start_time>
                 <spend_close_time>1377964799</spend_close_time>
@@ -976,7 +976,7 @@
                 <endTime>1377878399</endTime>
                 <value>360</value>
                 <price>200</price>
-                <rebate>5.6折</rebate>
+                <rebate>5.6</rebate>
                 <bought>709</bought>
                 <spend_start_time>1373644800</spend_start_time>
                 <spend_close_time>1377964799</spend_close_time>
@@ -1002,7 +1002,7 @@
                 <endTime>1375199999</endTime>
                 <value>120</value>
                 <price>32</price>
-                <rebate>2.7折</rebate>
+                <rebate>2.7</rebate>
                 <bought>1961</bought>
                 <spend_start_time>1370016000</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>
@@ -1028,7 +1028,7 @@
                 <endTime>1375250400</endTime>
                 <value>158</value>
                 <price>69</price>
-                <rebate>4.4折</rebate>
+                <rebate>4.4</rebate>
                 <bought>6240</bought>
                 <spend_start_time>1369670400</spend_start_time>
                 <spend_close_time>1375286399</spend_close_time>

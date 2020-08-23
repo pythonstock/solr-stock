@@ -4,3 +4,4 @@
 .attach_*
 
 solr/tuan/data/
+solr/tuan/data/conf/dataimport.properties

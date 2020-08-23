@@ -105,6 +105,10 @@
 				</configuration>
 			</plugin>
 			<plugin>
+				<!--
+					配置Jetty Maven插件-版本9.x
+					https://blog.csdn.net/xqhys/article/details/84932767
+				-->
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.4.31.v20200723</version>
@@ -130,6 +134,17 @@
 							<!--一般服务器默认是ISO-8859-1编码-->
 							<name>org.eclipse.jetty.util.URI.charset</name>
 							<value>UTF-8</value>
+						</systemProperty>
+						<systemProperty>
+							<!-- [main] ERROR org.apache.solr.util.StartupLoggingUtils
+							 - Missing Java Option solr.log.dir. Logging may be missing or incomplete.-->
+							<name>solr.log.dir</name>
+							<value>${basedir}/logs/</value>
+						</systemProperty>
+						<systemProperty>
+							<!-- enable.dih.dataConfigParam .-->
+							<name>enable.dih.dataConfigParam</name>
+							<value>true/</value>
 						</systemProperty>
 					</systemProperties>
 				</configuration>

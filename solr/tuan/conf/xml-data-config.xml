@@ -29,7 +29,9 @@
 		<entity name="tuan" pk="loc" logLevel="debug"
 			url="./solr/tuan/conf/meituan_hao123.xml"
 			processor="XPathEntityProcessor" forEach="/urlset/url"
-			transformer="script:ReplaceLocAddId,DateFormatTransformer">
+			transformer="DateFormatTransformer">
+
+			<field column="id" xpath="/urlset/url/data/display/startTime" commonField="true" />
 
 			<field column="loc" xpath="/urlset/url/loc" commonField="true" />
 
@@ -52,10 +54,10 @@
 			<field column="bought" xpath="/urlset/url/data/display/bought"
 				commonField="true" />
 
-			<field column="startTime" xpath="/urlset/url/data/display/startTime"
-				dateTimeFormat="yyyy-MM-dd HH:mm:ss" commonField="true" />
-			<field column="endTime" xpath="/urlset/url/data/display/endTime"
-				dateTimeFormat="yyyy-MM-dd HH:mm:ss" commonField="true" />
+<!--			<field column="startTime" xpath="/urlset/url/data/display/startTime"-->
+<!--				dateTimeFormat="yyyy-MM-dd HH:mm:ss" commonField="true" />-->
+<!--			<field column="endTime" xpath="/urlset/url/data/display/endTime"-->
+<!--				dateTimeFormat="yyyy-MM-dd HH:mm:ss" commonField="true" />-->
 
 		</entity>
 	</document>

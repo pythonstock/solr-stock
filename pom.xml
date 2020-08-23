@@ -105,11 +105,17 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.mortbay.jetty</groupId>
-				<artifactId>maven-jetty-plugin</artifactId>
-				<version>6.1.26</version>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.4.31.v20200723</version>
 				<configuration>
-					<contextPath>/</contextPath>
+					<httpConnector>
+						<port>8080</port> <!-- 端口号 -->
+					</httpConnector>
+					<webApp>
+						<contextPath>/</contextPath> <!-- 项目访问前缀 -->
+					</webApp>
+					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<scanTargetPatterns>
 						<scanTargetPattern>
 							<directory>src/main/webapp</directory>
@@ -119,13 +125,13 @@
 							</includes>
 						</scanTargetPattern>
 					</scanTargetPatterns>
-					<connectors>
-						<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-							<port>8080</port>
-						</connector>
-					</connectors>
-					<stopKey>exit</stopKey>
-					<stopPort>8081</stopPort>
+					<systemProperties>
+						<systemProperty>
+							<!--一般服务器默认是ISO-8859-1编码-->
+							<name>org.eclipse.jetty.util.URI.charset</name>
+							<value>UTF-8</value>
+						</systemProperty>
+					</systemProperties>
 				</configuration>
 			</plugin>
 		</plugins>
